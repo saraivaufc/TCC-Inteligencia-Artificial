@@ -1,0 +1,97 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Modelo TCC - PUC Minas
+%% Arquivo Principal	
+%%
+%% Nome: Marciano Machado Saraiva
+%% Data: 2021
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass{abntpuc}
+% \include{pacoteseclass}
+
+% \let\cleardoublepage\clearpage
+
+
+\usepackage{float}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{adjustbox}
+\usepackage{tabularx}
+\usepackage{cite}
+\usepackage{gensymb}
+\usepackage{csquotes}
+\usepackage{subfig}
+\usepackage{listings}
+\usepackage{footnote}
+\usepackage[para,online,flushleft]{threeparttable}
+\usepackage[table]{xcolor}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+
+\lstset{style=mystyle}
+
+\setlength{\cftbeforechapskip}{0pt}
+\let\cleardoublepage\clearpage
+
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd{\scr@startchapter}{\if@openright\cleardoublepage\else\clearpage\fi}{}{}{}
+\makeatother
+
+\renewcommand\citeleft{(}
+\renewcommand\citeright{)}
+
+
+\setcitebrackets
+
+\usepackage{blindtext}
+
+\begin{document}
+
+\include{elementos-pre-textuais/Capa}
+\include{elementos-pre-textuais/FolhaDeRosto}
+\include{elementos-pre-textuais/ListaFigurasTabelasSumario}
+%%\include{3_FolhaDeAprovacao}
+%%\include{4_DedicatoriaEAgradecimentos} %(elementos opcionais)
+%%\include{4_Epigrafe} %(elemento opcional)
+%\include{5_Resumo} 
+%\include{6_ListaDeFigurasTabelasESumario} 
+
+
+\include{elementos-textuais/1_Introducao}
+\include{elementos-textuais/2_Contextualizacao}
+\include{elementos-textuais/3_DescricaoDoProblemaESolucao}
+\include{elementos-textuais/4_ColetaDeDados}
+\include{elementos-textuais/5_ProcessamentoTratamentoDeDados}
+\include{elementos-textuais/6_AnaliseExploracaoDadosEModeloMachineLearning}
+\include{elementos-textuais/7_Discursao_Resultados}
+\include{elementos-textuais/8_Conclusao}
+\include{elementos-textuais/9_Links}
+
+\include{elementos-pos-textuais/Bibliografia}
+
+
+\end{document}
+
