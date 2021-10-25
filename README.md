@@ -5,6 +5,9 @@
 3. Para realizar o tratamento dos dados, análises e treinamento dos modelos, utilize o notebook [land-use-classification-using-encoder-decoder-lstm.ipynb](https://github.com/saraivaufc/TCC-Inteligencia-Artificial/blob/master/2-Script%20para%20o%20tratamento%2C%20an%C3%A1lise%20e%20treinamento%20dos%20modelos/land-use-classification-using-encoder-decoder-lstm.ipynb);
 4. A última versão do relatório está disponível em: [LaTex](https://github.com/saraivaufc/TCC-Inteligencia-Artificial/tree/master/3-Relat%C3%B3rio%20em%20LaTex) e em [PDF](https://github.com/saraivaufc/TCC-Inteligencia-Artificial/blob/master/3-Relat%C3%B3rio%20em%20LaTex/tcc_inteligencia_artificial.pdf).
 
+## Apresentação do trabalho
+
+[![Alt text](https://img.youtube.com/vi/rQhdG4yK580/0.jpg)](https://www.youtube.com/watch?v=rQhdG4yK580)
 
 ## Resultados 
 [![Alt text](https://img.youtube.com/vi/R6SwGzosLfM/0.jpg)](https://www.youtube.com/watch?v=R6SwGzosLfM)
