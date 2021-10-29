@@ -1,6 +1,6 @@
 // IMPORTS
 
-var ARDLib = require('users/saraiva/packages:ARDLib.js');
+var ARDLib = require('users/saraiva/public:ARDLib.js');
 
 // END IMPORTS
 
